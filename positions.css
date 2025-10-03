@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #006ff7;
+  --secondary-color: #ed616b;
+}
+body {
+  font-family:  Helvetica, sans-serif;
+}
+nav {
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+  padding: 0 50px;
+}
+#nav-list {
+  display: flex;
+  list-style: none;
+  color: white;
+  gap: 45px;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  align-items: center;
+}
+
+.nav-button {
+  padding: 10px 20px;
+  color: white;
+  background-color: var(--secondary-color);
+  border: none;
+  border-radius: 35px;
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+
+section{
+    background-image: url(	https://templatemo.com/templates/templatemo_589_lugx_gaming/assets/images/banner-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    gap: 50px;
+    padding: 100px 50px;
+}
+.part1{
+    flex:6 ;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    color: white;
+    font-size: 1.3rem;
+    justify-content: center;
+}
+
+.section-form{
+    display: flex;
+width: fit-content;
+}
+.section-input{
+    width: 350px;
+    height: 50px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+
+    padding:0 20px ;
+}
+.section-button{
+    width: 150px;
+    height: 50px;
+    background-color: var(--secondary-color);
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    border-radius:50px;
+    position: relative;
+    left:-80px
+}
+.part2{
+   flex:5 ;
+}
+.container{
+    width: fit-content;
+    position: relative;
+}
+.price{
+background-color: var(--primary-color);
+padding:10px 20px;
+width: fit-content;
+border-radius: 20px;
+position: absolute;
+right: 10px;
+top: 10px;
+
+}
+.discount{
+background-color: var(--secondary-color);
+width: 80px;
+aspect-ratio: 1/1;
+border-radius: 50%;
+display: grid;
+place-content: center;
+position: absolute;
+bottom: -30px;
+left: -30px;
+}
+.banner{
+    border-radius: 20px;
+}
