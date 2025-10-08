@@ -1,0 +1,44 @@
+/* 
+* {
+
+}
+section{
+
+}
+
+.class-name,.class-name2{
+
+}
+#id-name{
+height: 100px;
+margin-bottom: 2px;
+background-color: red;
+}
+
+
+
+[abc*="2"]{
+    height: 200px;
+    margin: 2px;
+    background-color: green;
+} */
+/* section.hello{
+    background-color: red;
+ } */
+
+ .hello section{
+    background-color: red;
+ }
+
+ .hello > section{
+    background-color: green;
+ }
+ .hello + section{
+
+background-color: aqua;
+ }
+ .hello ~  section{
+    background-color: yellowgreen;
+ }
+
+ div>.class div

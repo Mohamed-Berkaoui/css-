@@ -1,0 +1,55 @@
+/* body{
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+button{
+    background-color: rgb(0, 60, 255);
+    padding: 20px 30px ;
+    color: white ;
+    border: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.562);
+    cursor: pointer;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    width: 150px;
+
+    transition: all 0.3s cubic-bezier(.13,.44,.39,.81);
+
+}
+button:hover{
+    background-color: red;
+}
+button:active{
+    scale: 0.9;
+}
+input{
+
+    width:300px ;
+    height: 40px;
+    
+}
+input:focus{
+    outline: 3px solid blue;
+
+}
+ */
+
+
+/* div  p:last-of-type{
+    background-color: red;
+ } */
+/* h2 +p{
+   background-color: red; 
+} */
+/* body h2:has(>span){
+    background-color: blue;
+} */
+ table ,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+ }
+ tr:nth-child(4n) {
+background-color: red;
+ }
