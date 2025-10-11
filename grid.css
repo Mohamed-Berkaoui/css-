@@ -1,0 +1,20 @@
+section{
+
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+div{
+    background-color: red;
+    margin: 1px;
+}
+.abc{
+    /* grid-row-start: 1;
+    grid-row-end:2 span ; */
+    grid-row: 1/ 2 span;
+    /* grid-column-start: 2;
+    grid-column-end: 2 span; */
+    grid-column:1/2 span ;
+}
